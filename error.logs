@@ -1,0 +1,408 @@
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :4
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :5
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :6
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :7
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :8
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :9
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :10
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :11
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :210
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :214
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :213
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :212
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :211
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :209
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :208
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :207
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :197
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :198
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :199
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :200
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :201
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :202
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :203
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :204
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :205
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :206
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :196
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :195
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :194
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :190
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :191
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :192
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :193
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :187
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :188
+[E 20180416 17:30:58 j_filter:70] error:no sn and no mac,id is :189
+[I 20180416 17:30:58 j_filter:84] Inset data into table ConnectionInfo sucess!
+[E 20200413 12:32:24 base:256] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[E 20200413 12:32:25 base:256] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[E 20200413 12:32:35 base:256] Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[E 20200413 12:32:35 base:256] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[E 20200413 12:32:43 base:256] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[E 20200413 12:32:43 base:256] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[E 20200413 12:38:47 base:256] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[E 20200413 12:38:47 base:256] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/admin/urls.py", line 23, in <module>
+    url(r'^', include('detail.urls', namespace='detail')),
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Users/majianyu/Desktop/imoocc/.env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/urls.py", line 5, in <module>
+    from . import views
+  File "/Users/majianyu/Desktop/imoocc/apps/detail/views.py", line 86
+    print "networks...................",networks
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "networks...................",networks)?
+[W 20200413 12:51:07 base:170] Not Found: /favicon.ico
+[W 20200413 13:40:22 base:170] Not Found: /admin
+[W 20200413 13:40:28 base:170] Not Found: /admin/
